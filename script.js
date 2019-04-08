@@ -268,7 +268,7 @@ function shoot () { //.. и запускаем этот элемент
                 korabl.style.paddingTop = "37px";
                 firesign = "~~> <br><br> ~~> <br><br> ~~>";    
                 }
-                if (true){ //lvl == 5) {
+                if (lvl == 5) {
                     var win = document.createElement("img");
                     win.style.position = 'absolute';
                     win.style.marginLeft = '0px';
