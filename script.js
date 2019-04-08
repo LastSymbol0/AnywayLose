@@ -35,7 +35,7 @@ start.onclick = function globalTimer () {
             clearInterval(inter);
         };
     }, 20)
-    createAn();
+//     createAn();
     setInterval(function () {
             createEnemy()
     }, 2000)
@@ -45,9 +45,9 @@ start.onclick = function globalTimer () {
     setInterval(function () {
             createEat();
     }, 11000)
-    setInterval(function () {
-            createAn();
-    }, 96000)
+//     setInterval(function () {
+//             createAn();
+//     }, 96000)
 }
 HiddenButtonForWin.onclick = function () {
     alert("Nu zdravstvuy stalker. You are still loser.");
